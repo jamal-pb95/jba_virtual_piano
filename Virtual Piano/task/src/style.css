@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-keys kbd {
+    display: inline-block;
+    width: 10px;
+    height: 90px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    width: 10px;
+    height: 50px;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+}
